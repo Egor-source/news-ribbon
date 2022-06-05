@@ -1,0 +1,14 @@
+a{
+  text-decoration: none;
+}
+
+.text-bold{
+  font-weight: 700;
+}
+
+select{
+  cursor: pointer;
+  option:checked {
+    display: none;
+  }
+}

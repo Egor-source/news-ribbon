@@ -1,0 +1,40 @@
+// grid breakpoints
+$screen-xs: 0;
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1400px;
+$screen-3xl:1680px;
+
+// container max widths
+$container-sm: 540px;
+$container-md: 720px;
+$container-lg: 960px;
+$container-xl: 1140px;
+$container-xxl: 1320px;
+$container-3xl:1630px;
+
+$grid-breakpoints: (
+        xs: $screen-xs,
+        sm: $screen-sm,
+        md: $screen-md,
+        lg: $screen-lg,
+        xl: $screen-xl,
+        xxl: $screen-xxl,
+        3xl:$screen-3xl
+);
+
+$container-max-widths: (
+        sm: $container-sm,
+        md: $container-md,
+        lg: $container-lg,
+        xl: $container-xl,
+        xxl: $container-xxl,
+        3xl:$container-3xl
+);
+
+
+
+
+
