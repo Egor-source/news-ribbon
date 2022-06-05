@@ -48,7 +48,6 @@ export default {
       }
     },
     textareaInputHandler(e) {
-      console.log(e)
       this.post.text = e.target.value;
     },
     submitFormHandler() {
